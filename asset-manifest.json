@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Miralou-Nine-REACT/static/css/main.f854a35e.css",
+    "main.js": "/Miralou-Nine-REACT/static/js/main.cde5c1dc.js",
+    "static/js/787.39bb0775.chunk.js": "/Miralou-Nine-REACT/static/js/787.39bb0775.chunk.js",
+    "static/media/Banner.jpg": "/Miralou-Nine-REACT/static/media/Banner.ef1ad7bc0dc7dd8327cf.jpg",
+    "static/media/aboutUs.jpg": "/Miralou-Nine-REACT/static/media/aboutUs.189fc8b652e654551792.jpg",
+    "static/media/shop.jpg": "/Miralou-Nine-REACT/static/media/shop.7410baab5d5c06b40f1a.jpg",
+    "static/media/mens-categorys.jpg": "/Miralou-Nine-REACT/static/media/mens-categorys.14f433dbe77713e5b094.jpg",
+    "static/media/womens-categorys.jpg": "/Miralou-Nine-REACT/static/media/womens-categorys.6fd2d22f4d9ddea33f71.jpg",
+    "static/media/whoWeAre.jpg": "/Miralou-Nine-REACT/static/media/whoWeAre.222c0d8a8366a566c899.jpg",
+    "static/media/ourVision.jpg": "/Miralou-Nine-REACT/static/media/ourVision.a7ca30d9ed7434a62ef8.jpg",
+    "static/media/kids-categorys.jpg": "/Miralou-Nine-REACT/static/media/kids-categorys.7582c30fd3322d66695e.jpg",
+    "static/media/avatar-04.png": "/Miralou-Nine-REACT/static/media/avatar-04.5cde1a1b7dffd9b9f83a.png",
+    "static/media/contactUs.jpg": "/Miralou-Nine-REACT/static/media/contactUs.49078ae7a7cb2876f932.jpg",
+    "static/media/avatar-03.png": "/Miralou-Nine-REACT/static/media/avatar-03.9bcc1e0b675edf836ed9.png",
+    "static/media/avatar-02.png": "/Miralou-Nine-REACT/static/media/avatar-02.cc9c983a8f12aab07b5f.png",
+    "static/media/avatar-01.png": "/Miralou-Nine-REACT/static/media/avatar-01.0e35f1b657d699ca4e25.png",
+    "index.html": "/Miralou-Nine-REACT/index.html",
+    "main.f854a35e.css.map": "/Miralou-Nine-REACT/static/css/main.f854a35e.css.map",
+    "main.cde5c1dc.js.map": "/Miralou-Nine-REACT/static/js/main.cde5c1dc.js.map",
+    "787.39bb0775.chunk.js.map": "/Miralou-Nine-REACT/static/js/787.39bb0775.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f854a35e.css",
+    "static/js/main.cde5c1dc.js"
+  ]
+}
