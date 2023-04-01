@@ -3,7 +3,6 @@ import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import img from "../Assest/Images/ourVision.jpg";
-import Testimonials from "./Testimonials";
 
 function SomeInfo() {
   return (
@@ -37,9 +36,6 @@ function SomeInfo() {
               </p>
             </div>
           </Col>
-        </Row>
-        <Row>
-          <Testimonials />
         </Row>
       </Container>
     </div>

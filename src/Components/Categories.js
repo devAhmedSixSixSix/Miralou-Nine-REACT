@@ -5,6 +5,7 @@ import CategoriesCard from "./CategoriesCard";
 import mensImg from "../Assest/Images/mens-categorys.jpg";
 import womensImg from "../Assest/Images/womens-categorys.jpg";
 import kidsImg from "../Assest/Images/kids-categorys.jpg";
+import Col from "react-bootstrap/esm/Col";
 
 function Categories() {
   return (
@@ -15,9 +16,15 @@ function Categories() {
           <p className="text-muted">Neque porro quisquam est qui dolorem</p>
         </Row>
         <Row className="d-flex justify-content-center align-items-center ">
-          <CategoriesCard title="Men's" numProduct="88" img={mensImg} />
-          <CategoriesCard title="Women's" numProduct="45" img={womensImg} />
-          <CategoriesCard title="Kid's" numProduct="29" img={kidsImg} />
+          <Col sm="12" lg="4" className="p-0">
+            <CategoriesCard title="Men's" numProduct="88" img={mensImg} />
+          </Col>
+          <Col sm="12" lg="4" className="p-0">
+            <CategoriesCard title="Women's" numProduct="45" img={womensImg} />
+          </Col>
+          <Col sm="12" lg="4" className="p-0">
+            <CategoriesCard title="Kid's" numProduct="29" img={kidsImg} />
+          </Col>
         </Row>
       </Container>
     </div>

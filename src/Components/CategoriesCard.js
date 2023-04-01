@@ -5,8 +5,7 @@ function CategoriesCard({ title, numProduct, img }) {
     backgroundImage: `url(${img})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
-    width: "33.33333%",
-    height: "100vh",
+    height: "50vh",
   };
 
   const overlay = {

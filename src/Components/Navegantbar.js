@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Offcanvas from "react-bootstrap/Offcanvas";
 import { AiOutlineHeart, AiOutlineShoppingCart } from "react-icons/ai";
 
 function Navegantbar() {
@@ -10,18 +11,27 @@ function Navegantbar() {
     fontSize: "22px",
     fontWeight: "lighter",
   };
+
   return (
-    <>
-      <Navbar bg="warning" sticky="top" expand="lg" className="text-white">
-        <Container fluid>
-          <Navbar.Brand>Marco</Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
-            <Nav
-              className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: "100px" }}
-              navbarScroll
+    <Navbar bg="warning" sticky="top" expand="lg" className="text-white">
+      <Container fluid>
+        <Navbar.Brand className="text-white">Marco Nine</Navbar.Brand>
+        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
+        <Navbar.Offcanvas
+          id={`offcanvasNavbar-expand-lg`}
+          aria-labelledby={`offcanvasNavbarLabel-expand-lg`}
+          placement="end"
+        >
+          <Offcanvas.Header closeButton>
+            <Offcanvas.Title
+              id={`offcanvasNavbarLabel-expand-lg`}
+              className="text-white"
             >
+              Miralio
+            </Offcanvas.Title>
+          </Offcanvas.Header>
+          <Offcanvas.Body>
+            <Nav className="me-auto my-2 my-lg-0" navbarScroll>
               <Nav.Link
                 className="text-decoration-none text-white"
                 as={Link}
@@ -55,7 +65,7 @@ function Navegantbar() {
                 Contact us
               </Nav.Link>
             </Nav>
-            <div>
+            <div className="my-auto">
               <Link to="shopingcart">
                 <AiOutlineShoppingCart size={32} className="me-3 text-white" />
               </Link>
@@ -63,10 +73,10 @@ function Navegantbar() {
                 <AiOutlineHeart size={32} className="me-3 text-white" />
               </Link>
             </div>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </>
+          </Offcanvas.Body>
+        </Navbar.Offcanvas>
+      </Container>
+    </Navbar>
   );
 }
 

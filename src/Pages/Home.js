@@ -5,6 +5,7 @@ import SomeProduct from "../Components/SomeProduct";
 import SomeInfo from "../Components/SomeInfo";
 import OurPartners from "../Components/OurPartners";
 import Spinner from "react-bootstrap/Spinner";
+import Testimonials from "../Components/Testimonials";
 
 function Home({ data }) {
   return (
@@ -19,6 +20,7 @@ function Home({ data }) {
         <SomeProduct data={data} />
       )}
       <SomeInfo />
+      <Testimonials />
       <OurPartners />
     </div>
   );

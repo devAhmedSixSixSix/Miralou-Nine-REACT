@@ -44,25 +44,25 @@ function Shop({ data }) {
       <HeaderBanner title="Shop" img={img} />
       <div className=" d-flex justify-content-center">
         <Container className="p-5 m-5 ">
-          <Row>
-            <Col xs={12} lg={3}>
-              <ShopSideBar
-                setLoest={setLoest}
-                setHighest={setHighest}
-                setCategory={setCategory}
-                filterdCategorysNames={filterdCategorysNames}
-              />
-            </Col>
-            <Col xs={12} lg={9}>
-              {data === null ? (
-                <div className="d-flex align-items-center justify-content-center my-5">
-                  <Spinner animation="border" />
-                </div>
-              ) : (
+          {data === null ? (
+            <div className="d-flex align-items-center justify-content-center my-5">
+              <Spinner animation="border" />
+            </div>
+          ) : (
+            <Row>
+              <Col xs={12} lg={3}>
+                <ShopSideBar
+                  setLoest={setLoest}
+                  setHighest={setHighest}
+                  setCategory={setCategory}
+                  filterdCategorysNames={filterdCategorysNames}
+                />
+              </Col>
+              <Col xs={12} lg={9}>
                 <ShopProductCard data={checedFilterPrisedData} />
-              )}
-            </Col>
-          </Row>
+              </Col>
+            </Row>
+          )}
         </Container>
       </div>
     </div>
