@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Miralou-Nine-REACT/static/css/main.f854a35e.css",
-    "main.js": "/Miralou-Nine-REACT/static/js/main.cde5c1dc.js",
+    "main.css": "/Miralou-Nine-REACT/static/css/main.bf7e04da.css",
+    "main.js": "/Miralou-Nine-REACT/static/js/main.57e24adf.js",
     "static/js/787.39bb0775.chunk.js": "/Miralou-Nine-REACT/static/js/787.39bb0775.chunk.js",
     "static/media/Banner.jpg": "/Miralou-Nine-REACT/static/media/Banner.ef1ad7bc0dc7dd8327cf.jpg",
     "static/media/aboutUs.jpg": "/Miralou-Nine-REACT/static/media/aboutUs.189fc8b652e654551792.jpg",
@@ -17,12 +17,12 @@
     "static/media/avatar-02.png": "/Miralou-Nine-REACT/static/media/avatar-02.cc9c983a8f12aab07b5f.png",
     "static/media/avatar-01.png": "/Miralou-Nine-REACT/static/media/avatar-01.0e35f1b657d699ca4e25.png",
     "index.html": "/Miralou-Nine-REACT/index.html",
-    "main.f854a35e.css.map": "/Miralou-Nine-REACT/static/css/main.f854a35e.css.map",
-    "main.cde5c1dc.js.map": "/Miralou-Nine-REACT/static/js/main.cde5c1dc.js.map",
+    "main.bf7e04da.css.map": "/Miralou-Nine-REACT/static/css/main.bf7e04da.css.map",
+    "main.57e24adf.js.map": "/Miralou-Nine-REACT/static/js/main.57e24adf.js.map",
     "787.39bb0775.chunk.js.map": "/Miralou-Nine-REACT/static/js/787.39bb0775.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f854a35e.css",
-    "static/js/main.cde5c1dc.js"
+    "static/css/main.bf7e04da.css",
+    "static/js/main.57e24adf.js"
   ]
 }
