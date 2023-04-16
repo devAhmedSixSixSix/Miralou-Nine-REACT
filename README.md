@@ -15,7 +15,6 @@ Users should be able to:
 2. Filter the products base on price and category. 
 3. Save the items in wishlist. 
 4- See the products you add to the cart.
-5. I do not have access to the Figma sketch so the design is not pixel perfect.
 
 ## Built with
  * React
